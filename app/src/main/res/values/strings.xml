@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MySalamAlaykApp</string>
+
+
+    <string name="titre_connexion">Bienvenue sur SalamAlaykApp</string>
+    <string name="user_Name">Entrez votre identifiant</string>
+    <string name="pass_Word">motdepasse</string>
+    <string name="sign_In">Se Connecter</string>
+
+
+    <string name="MenuText">Reservez Votre villa de Rêve</string>
+
+
+    <string name="register" href="activity">creer un compte</string>
+
+    <string name="user_nameRegistration">nom utilisateur</string>
+    <string name="email_Registration">votre adresse mail</string>
+    <string name="password_Registration">motdepasse</string>
+
+    <string name="button_miseEnLocation">+ Mettre un bien en location</string>
+
+
+</resources>
