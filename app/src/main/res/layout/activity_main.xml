@@ -44,6 +44,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
+        android:textColor="@color/black"
         android:text="@string/user_Name"
         tools:layout_editor_absoluteX="100dp"
         tools:layout_editor_absoluteY="215dp"
@@ -56,6 +57,7 @@
         app:layout_constraintVertical_bias="0.5" />
 
     <EditText
+        android:textColor="@color/black"
         android:id="@+id/editTextTextPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
