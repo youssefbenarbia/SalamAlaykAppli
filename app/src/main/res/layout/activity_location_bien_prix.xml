@@ -9,49 +9,30 @@
 
     <Spinner
         android:id="@+id/spinner5"
-        android:layout_width="132dp"
-        android:layout_height="41dp"
+        android:layout_width="117dp"
+        android:layout_height="38dp"
         android:spinnerMode="dropdown"
-        tools:layout_editor_absoluteX="254dp"
-        tools:layout_editor_absoluteY="196dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="1"
+        app:layout_constraintHorizontal_bias="1.05"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.28"/>
-
-    <EditText
-        android:id="@+id/editTextTextPersonName19"
-        android:layout_width="110dp"
-        android:layout_height="37dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name"
-        tools:layout_editor_absoluteX="137dp"
-        tools:layout_editor_absoluteY="196dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.879"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.46"
-        android:textColor="@color/black"/>
+        app:layout_constraintVertical_bias="0.282" />
 
     <EditText
         android:id="@+id/editTextTextPersonName20"
-        android:layout_width="120dp"
-        android:layout_height="45dp"
+        android:layout_width="152dp"
+        android:layout_height="43dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Prix par nuit"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.35"
+        app:layout_constraintHorizontal_bias="0.45"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.00"
-        android:textColor="@color/black"/>
+        app:layout_constraintVertical_bias="0.0" />
 
     <EditText
         android:id="@+id/editTextTextPersonName21"
@@ -59,34 +40,29 @@
         android:layout_height="37dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
-        tools:layout_editor_absoluteX="76dp"
-        tools:layout_editor_absoluteY="50dp"
+        android:text="TVA"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintHorizontal_bias="0.191"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.06"
-        android:textColor="@color/black"/>
+        app:layout_constraintVertical_bias="0.08" />
 
     <EditText
         android:id="@+id/editTextTextPersonName10"
-        android:layout_width="130dp"
+        android:layout_width="133dp"
         android:layout_height="40dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
-        tools:layout_editor_absoluteX="108dp"
-        tools:layout_editor_absoluteY="652dp"
+        android:text="Taxe"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintHorizontal_bias="0.553"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.28"
-        android:textColor="@color/black"
-        />
+        app:layout_constraintVertical_bias="0.282" />
 
     <EditText
         android:id="@+id/editTextTextPersonName12"
@@ -95,9 +71,13 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Name"
-        tools:layout_editor_absoluteX="180dp"
-        tools:layout_editor_absoluteY="382dp"
-        android:textColor="@color/black"/>
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.995"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.616" />
 
     <EditText
         android:id="@+id/editTextTextPersonName13"
@@ -107,8 +87,12 @@
         android:inputType="textPersonName"
         android:text="Name"
         android:textColor="@color/black"
-        tools:layout_editor_absoluteX="124dp"
-        tools:layout_editor_absoluteY="441dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.738" />
 
     <EditText
         android:id="@+id/editTextTextPersonName14"
@@ -118,8 +102,11 @@
         android:inputType="textPersonName"
         android:text="Name"
         android:textColor="@color/black"
-        tools:layout_editor_absoluteX="200dp"
-        tools:layout_editor_absoluteY="330dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/editTextTextPersonName15"
@@ -127,16 +114,14 @@
         android:layout_height="40dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
-        tools:layout_editor_absoluteX="137dp"
-        tools:layout_editor_absoluteY="91dp"
+        android:text="prix"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintHorizontal_bias="0.62"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.135"
-        android:textColor="@color/black"/>
+        app:layout_constraintVertical_bias="0.134" />
 
     <EditText
         android:id="@+id/editTextTextPersonName16"
@@ -144,46 +129,40 @@
         android:layout_height="40dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
-        tools:layout_editor_absoluteX="121dp"
-        tools:layout_editor_absoluteY="140dp"
+        android:text="frais"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.43"
+        app:layout_constraintHorizontal_bias="0.489"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.21"
-        android:textColor="@color/black"/>
+        app:layout_constraintVertical_bias="0.209" />
 
     <TextView
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Prix par nuit € "
-        tools:layout_editor_absoluteX="6dp"
-        tools:layout_editor_absoluteY="16dp"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0."
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.02"
-        android:textColor="@color/black"/>
+        app:layout_constraintVertical_bias="0.022" />
 
     <TextView
         android:id="@+id/textView13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TVA (%)"
-        tools:layout_editor_absoluteX="6dp"
-        tools:layout_editor_absoluteY="50dp"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0."
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.07"
-        android:textColor="@color/black"/>
+        app:layout_constraintVertical_bias="0.092" />
 
     <TextView
         android:id="@+id/textView15"
@@ -232,91 +211,55 @@
 
     <TextView
         android:id="@+id/textView18"
-        android:layout_width="174dp"
-        android:layout_height="36dp"
+        android:layout_width="87dp"
+        android:layout_height="53dp"
         android:text="Minimum de nuits pour la réservation"
-        tools:layout_editor_absoluteX="6dp"
-        tools:layout_editor_absoluteY="257dp"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0."
+        app:layout_constraintHorizontal_bias="0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.365"
-        android:textColor="@color/black"/>
+        app:layout_constraintVertical_bias="0.363" />
 
     <TextView
         android:id="@+id/textView19"
         android:layout_width="179dp"
         android:layout_height="54dp"
         android:text="Dépôt de garantie € - sera remboursé si aucune plainte n'est reçue du propriétaire"
-        tools:layout_editor_absoluteX="6dp"
-        tools:layout_editor_absoluteY="304dp"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0."
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.45"
-        android:textColor="@color/black"/>
+        app:layout_constraintVertical_bias="0.499" />
 
     <TextView
         android:id="@+id/textView20"
         android:layout_width="154dp"
         android:layout_height="48dp"
         android:text="Réduction pour réservation anticipée - en % du tarif par nuit"
-        tools:layout_editor_absoluteX="6dp"
-        tools:layout_editor_absoluteY="379dp"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0."
+        app:layout_constraintHorizontal_bias="0.007"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.55"
-        android:textColor="@color/black"/>
+        app:layout_constraintVertical_bias="0.619" />
 
     <TextView
         android:id="@+id/textView21"
         android:layout_width="117dp"
         android:layout_height="37dp"
         android:text="Personne(s) supplémentaire(s)"
-        tools:layout_editor_absoluteX="6dp"
-        tools:layout_editor_absoluteY="446dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0."
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.645"
-        android:textColor="@color/black"/>
-
-    <TextView
-        android:id="@+id/textView22"
-        android:layout_width="201dp"
-        android:layout_height="57dp"
-        android:text="Autoriser uniquement les réservations avec l’enregistrement/check-out sur :"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="573dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0."
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.85"
-        android:textColor="@color/black"/>
-
-    <TextView
-        android:id="@+id/textView23"
-        android:layout_width="199dp"
-        android:layout_height="57dp"
-        android:text="Autoriser uniquement les réservations en commençant par l’enregistrement sur :"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.85" />
+        app:layout_constraintVertical_bias="0.736" />
 
     <EditText
         android:id="@+id/editTextTextPersonName9"
@@ -324,52 +267,63 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
-        tools:layout_editor_absoluteX="185dp"
-        tools:layout_editor_absoluteY="248dp"
+        android:text="Nuits"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintHorizontal_bias="0.676"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.365"
-        android:textColor="@color/black"/>
+        app:layout_constraintVertical_bias="0.37" />
 
     <Spinner
         android:id="@+id/spinner4"
-        android:layout_width="132dp"
-        android:layout_height="41dp"
+        android:layout_width="116dp"
+        android:layout_height="40dp"
         android:spinnerMode="dropdown"
-        tools:layout_editor_absoluteX="263dp"
-        tools:layout_editor_absoluteY="140dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="1"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.21"/>
+        app:layout_constraintVertical_bias="0.208" />
 
     <CheckBox
         android:id="@+id/checkBox2"
-        android:layout_width="178dp"
-        android:layout_height="51dp"
+        android:layout_width="111dp"
+        android:layout_height="81dp"
         android:text="Autoriser les invités au-dessus de la capacité?"
         android:textColor="@color/black"
-        tools:layout_editor_absoluteX="233dp"
-        tools:layout_editor_absoluteY="443dp" />
-
-    <CheckBox
-        android:id="@+id/checkBox3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Payez par le nombre d'invités (les prix des chambres ne seront plus utilisés et la facturation sera faite uniquement par le nombre d'invité)"
-        tools:layout_editor_absoluteY="513dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0."
+        app:layout_constraintHorizontal_bias="0.983"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.75"
+        app:layout_constraintVertical_bias="0.749" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:text="Payez par le nombre d'invités (les prix des chambres ne seront plus utilisés et la facturation sera faite uniquement par le nombre d'invité)"
         android:textColor="@color/black"
-        />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.919" />
+
+    <Button
+        android:id="@+id/secondContinueButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/teal_200"
+        android:text="Continuer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.945"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.992" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -7,13 +7,14 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class AjoutBienDetails extends AppCompatActivity {
+public class AjoutBienEmplacement extends AppCompatActivity {
     private Button continueButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ajout_bien_details);
+        setContentView(R.layout.activity_ajout_bien_emplacement);
+
 
         this.continueButton = (Button) findViewById(R.id.continueButton);
 
@@ -25,7 +26,7 @@ public class AjoutBienDetails extends AppCompatActivity {
             @Override
 
             public void onClick(View view) {
-                Intent otherActivity = new Intent(getApplicationContext(), AjoutBienEmplacement.class);
+                Intent otherActivity = new Intent(getApplicationContext(), AjoutBienEquipements.class);
                 startActivity(otherActivity);
                 finish();
             }

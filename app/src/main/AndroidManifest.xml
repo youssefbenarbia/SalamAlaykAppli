@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MySalamAlaykApp">
-        <activity android:name=".AjoutBienEquipements"></activity>
+        <activity android:name=".AjoutBienCalendrier"></activity>
+        <activity android:name=".AjoutBienEmplacement" />
+        <activity android:name=".AjoutBienEquipements" />
         <activity android:name=".AjoutBienDetails" />
         <activity android:name=".LocationDeBienImages" />
         <activity android:name=".LocationBienPrix" />

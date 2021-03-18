@@ -2,8 +2,11 @@ package youssef.benarbia.mysalamalaykapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.Spinner;
 
 import java.util.ArrayList;
@@ -12,6 +15,7 @@ import java.util.List;
 public class LocationBienPrix extends AppCompatActivity {
     private Spinner spinner4;
     private Spinner spinner5;
+    private Button secondContinueButton;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -70,5 +74,22 @@ public class LocationBienPrix extends AppCompatActivity {
 
         //Enfin on passe l'adapter au Spinner et c'est tout
         spinner5.setAdapter(adapter2);
+
+
+        this.secondContinueButton = (Button) findViewById(R.id.secondContinueButton);
+
+
+
+
+
+        secondContinueButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+
+            public void onClick(View view) {
+                Intent otherActivity = new Intent(getApplicationContext(), LocationDeBienImages.class);
+                startActivity(otherActivity);
+                finish();
+            }
+        });
     }
 }

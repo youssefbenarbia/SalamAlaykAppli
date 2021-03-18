@@ -7,25 +7,26 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class AjoutBienDetails extends AppCompatActivity {
-    private Button continueButton;
-
+public class AjoutBienCalendrier extends AppCompatActivity {
+    private Button saveButton;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ajout_bien_details);
-
-        this.continueButton = (Button) findViewById(R.id.continueButton);
+        setContentView(R.layout.activity_ajout_bien_calendrier);
 
 
 
+        this.saveButton = (Button) findViewById(R.id.saveButton);
 
 
-        continueButton.setOnClickListener(new View.OnClickListener() {
+
+
+
+        saveButton.setOnClickListener(new View.OnClickListener() {
             @Override
 
             public void onClick(View view) {
-                Intent otherActivity = new Intent(getApplicationContext(), AjoutBienEmplacement.class);
+                Intent otherActivity = new Intent(getApplicationContext(), MenuActivity.class);
                 startActivity(otherActivity);
                 finish();
             }
