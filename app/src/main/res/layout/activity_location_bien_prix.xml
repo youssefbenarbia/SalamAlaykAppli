@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".LocationBienPrix"
-    android:backgroundTint="@color/white">
+    android:background="#FFFFFF">
 
     <Spinner
         android:id="@+id/spinner5"
@@ -22,7 +22,8 @@
     <EditText
         android:id="@+id/editTextTextPersonName20"
         android:layout_width="152dp"
-        android:layout_height="43dp"
+        android:layout_height="43dp"        android:backgroundTint="@color/black"
+
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Prix par nuit"
@@ -38,7 +39,8 @@
         android:id="@+id/editTextTextPersonName21"
         android:layout_width="76dp"
         android:layout_height="37dp"
-        android:ems="10"
+        android:ems="10"        android:backgroundTint="@color/black"
+
         android:inputType="textPersonName"
         android:text="TVA"
         android:textColor="@color/black"
@@ -53,7 +55,8 @@
         android:id="@+id/editTextTextPersonName10"
         android:layout_width="133dp"
         android:layout_height="40dp"
-        android:ems="10"
+        android:ems="10"        android:backgroundTint="@color/black"
+
         android:inputType="textPersonName"
         android:text="Taxe"
         android:textColor="@color/black"
@@ -70,7 +73,8 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:text="Name"        android:backgroundTint="@color/black"
+
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.995"
@@ -85,7 +89,8 @@
         android:layout_height="53dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:text="Name"        android:backgroundTint="@color/black"
+
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -99,7 +104,8 @@
         android:layout_width="175dp"
         android:layout_height="49dp"
         android:ems="10"
-        android:inputType="textPersonName"
+        android:inputType="textPersonName"        android:backgroundTint="@color/black"
+
         android:text="Name"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -114,7 +120,8 @@
         android:layout_height="40dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="prix"
+        android:text="prix"        android:backgroundTint="@color/black"
+
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.62"
@@ -129,7 +136,8 @@
         android:layout_height="40dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="frais"
+        android:text="frais"        android:backgroundTint="@color/black"
+
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.489"
@@ -265,7 +273,8 @@
         android:id="@+id/editTextTextPersonName9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="10"
+        android:ems="10"        android:backgroundTint="@color/black"
+
         android:inputType="textPersonName"
         android:text="Nuits"
         android:textColor="@color/black"

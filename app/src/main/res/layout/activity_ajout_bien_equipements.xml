@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:backgroundTint="@color/white"
-    tools:context=".AjoutBienEquipements">
+    tools:context=".AjoutBienEquipements"
+    android:background="#FFFFFF">
 
     <TextView
         android:id="@+id/textView37"
@@ -27,7 +27,8 @@
         android:layout_height="42dp"
         android:text="WIFI"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintHorizontal_bias="0.461"        android:textColor="@color/black"
+
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -37,7 +38,8 @@
         android:id="@+id/checkBox18"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Internet"
+        android:text="Internet"        android:textColor="@color/black"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.471"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -52,14 +54,16 @@
         android:text="FAX"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.467"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"        android:textColor="@color/black"
+
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.625" />
 
     <CheckBox
         android:id="@+id/checkBox22"
-        android:layout_width="118dp"
+        android:layout_width="118dp"        android:textColor="@color/black"
+
         android:layout_height="50dp"
         android:text="Animaux acceptés"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -72,7 +76,8 @@
     <CheckBox
         android:id="@+id/checkBox53"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="wrap_content"        android:textColor="@color/black"
+
         android:text="Salle de sport"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -85,7 +90,8 @@
         android:id="@+id/checkBox20"
         android:layout_width="118dp"
         android:layout_height="47dp"
-        android:text="Cheminée intérieure"
+        android:text="Cheminée intérieure"        android:textColor="@color/black"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -98,7 +104,8 @@
         android:layout_width="115dp"
         android:layout_height="45dp"
         android:text="Parking gratuit"
-        tools:layout_editor_absoluteX="292dp"
+        tools:layout_editor_absoluteX="292dp"        android:textColor="@color/black"
+
         tools:layout_editor_absoluteY="483dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.989"
@@ -112,7 +119,8 @@
         android:layout_width="118dp"
         android:layout_height="46dp"
         android:text="Essentiel"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"        android:textColor="@color/black"
+
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -123,7 +131,8 @@
         android:id="@+id/checkBox54"
         android:layout_width="115dp"
         android:layout_height="48dp"
-        android:text="Portier"
+        android:text="Portier"        android:textColor="@color/black"
+
         tools:layout_editor_absoluteX="292dp"
         tools:layout_editor_absoluteY="531dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -138,7 +147,8 @@
         android:layout_width="118dp"
         android:layout_height="51dp"
         android:text="Téléphone (cabine/ligne)"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"        android:textColor="@color/black"
+
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -149,7 +159,8 @@
         android:id="@+id/checkBox56"
         android:layout_width="115dp"
         android:layout_height="48dp"
-        android:text="Jacuzzi"
+        android:text="Jacuzzi"        android:textColor="@color/black"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.989"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -162,7 +173,8 @@
         android:layout_width="116dp"
         android:layout_height="48dp"
         android:text="Garden or blackryard"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"        android:textColor="@color/black"
+
         app:layout_constraintHorizontal_bias="0.989"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -173,7 +185,8 @@
         android:id="@+id/checkBox27"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Séchoir"
+        android:text="Séchoir"        android:textColor="@color/black"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.463"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -184,7 +197,8 @@
     <CheckBox
         android:id="@+id/checkBox28"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="wrap_content"        android:textColor="@color/black"
+
         android:text="Restaurant"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -198,7 +212,8 @@
         android:layout_width="90dp"
         android:layout_height="38dp"
         android:text="Piscine"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"        android:textColor="@color/black"
+
         app:layout_constraintHorizontal_bias="0.485"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -209,7 +224,8 @@
         android:id="@+id/checkBox31"
         android:layout_width="112dp"
         android:layout_height="44dp"
-        android:text="Adapté aux évènements"
+        android:text="Adapté aux évènements"        android:textColor="@color/black"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.541"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -221,7 +237,8 @@
         android:id="@+id/checkBox29"
         android:layout_width="110dp"
         android:layout_height="48dp"
-        android:text="Chauffage"
+        android:text="Chauffage"        android:textColor="@color/black"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.538"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -235,7 +252,8 @@
         android:layout_height="47dp"
         android:text="Cuisine"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintHorizontal_bias="0.538"        android:textColor="@color/black"
+
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -245,7 +263,8 @@
         android:id="@+id/checkBox36"
         android:layout_width="113dp"
         android:layout_height="31dp"
-        android:text="Non fumeur"
+        android:text="Non fumeur"        android:textColor="@color/black"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.543"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -258,6 +277,8 @@
         android:layout_width="146dp"
         android:layout_height="47dp"
         android:text="Accessible aux fauteuils roulants"
+        android:textColor="@color/black"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -275,6 +296,8 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        android:textColor="@color/black"
+
         app:layout_constraintVertical_bias="0.928" />
 
     <CheckBox
@@ -282,6 +305,8 @@
         android:layout_width="146dp"
         android:layout_height="50dp"
         android:text="projecteur (s)"
+        android:textColor="@color/black"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -299,12 +324,16 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.518" />
+        app:layout_constraintVertical_bias="0.518"
+        android:textColor="@color/black"
+        />
 
     <CheckBox
         android:id="@+id/checkBox32"
         android:layout_width="145dp"
         android:layout_height="45dp"
+        android:textColor="@color/black"
+
         android:text="Scanner/imprimante"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -318,6 +347,8 @@
         android:layout_width="146dp"
         android:layout_height="48dp"
         android:text="Petit déjeuner inclus"
+        android:textColor="@color/black"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -335,7 +366,9 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.653" />
+        app:layout_constraintVertical_bias="0.653"
+        android:textColor="@color/black"
+        />
 
     <CheckBox
         android:id="@+id/checkBox34"
@@ -347,7 +380,9 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.585" />
+        app:layout_constraintVertical_bias="0.585"
+        android:textColor="@color/black"
+        />
 
     <CheckBox
         android:id="@+id/checkBox40"
@@ -359,6 +394,8 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        android:textColor="@color/black"
+
         app:layout_constraintVertical_bias="0.998" />
 
     <CheckBox
@@ -371,7 +408,9 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.43" />
+        app:layout_constraintVertical_bias="0.43"
+        android:textColor="@color/black"
+        />
 
     <CheckBox
         android:id="@+id/checkBox8"
@@ -390,6 +429,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Washer"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.487"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -398,6 +438,7 @@
         app:layout_constraintVertical_bias="0.112" />
 
     <CheckBox
+        android:textColor="@color/black"
         android:id="@+id/checkBox7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -414,6 +455,7 @@
         android:layout_width="115dp"
         android:layout_height="52dp"
         android:text="Wireless Internet"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -425,6 +467,8 @@
         android:id="@+id/checkBox24"
         android:layout_width="96dp"
         android:layout_height="46dp"
+        android:textColor="@color/black"
+
         android:text="Scanner / Printer"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -438,6 +482,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Climatisation"
+        android:textColor="@color/black"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.548"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -450,6 +496,7 @@
         android:layout_width="107dp"
         android:layout_height="56dp"
         android:text="Téléphone"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.973"
         app:layout_constraintLeft_toLeftOf="parent"

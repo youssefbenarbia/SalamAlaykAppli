@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AjoutBienEmplacement">
+    tools:context=".AjoutBienEmplacement"
+    android:background="#FFFFFF">
 
     <TextView
         android:id="@+id/textView41"
@@ -21,6 +22,8 @@
         app:layout_constraintVertical_bias="0.415" />
 
     <EditText
+        android:backgroundTint="@color/black"
+
         android:id="@+id/editTextTextPersonName25"
         android:layout_width="155dp"
         android:layout_height="38dp"
@@ -37,6 +40,8 @@
 
 
     <EditText
+
+        android:backgroundTint="@color/black"
         android:id="@+id/editTextTextPersonName29"
         android:layout_width="155dp"
         android:layout_height="38dp"
@@ -51,6 +56,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.207" />
     <EditText
+        android:backgroundTint="@color/black"
+
         android:id="@+id/editTextTextPersonName11"
         android:layout_width="155dp"
         android:layout_height="38dp"
@@ -68,6 +75,8 @@
 
 
     <EditText
+        android:backgroundTint="@color/black"
+
         android:id="@+id/editTextTextPersonName17"
         android:layout_width="155dp"
         android:layout_height="38dp"

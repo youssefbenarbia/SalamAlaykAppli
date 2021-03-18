@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".AjoutBienDetails"
-    android:backgroundTint="@color/white">
+    android:background="#FFFFFF">
 
     <TextView
         android:id="@+id/textView26"
@@ -13,15 +13,18 @@
         android:layout_height="wrap_content"
         android:text="Autres règles"
         android:textColor="@color/black"
+
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.128"
+        app:layout_constraintHorizontal_bias="0.103"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.905" />
+        app:layout_constraintVertical_bias="0.907" />
 
     <EditText
         android:id="@+id/editTextTextPersonName19"
+        android:backgroundTint="@color/black"
+
         android:layout_width="155dp"
         android:layout_height="38dp"
         android:ems="10"
@@ -78,6 +81,8 @@
 
     <EditText
         android:id="@+id/editTextTextPersonName25"
+        android:backgroundTint="@color/black"
+
         android:layout_width="155dp"
         android:layout_height="38dp"
         android:ems="10"
@@ -106,6 +111,8 @@
 
     <EditText
         android:id="@+id/editTextTextPersonName11"
+        android:backgroundTint="@color/black"
+
         android:layout_width="155dp"
         android:layout_height="38dp"
         android:ems="10"
@@ -162,6 +169,7 @@
         android:id="@+id/editTextTextPersonName29"
         android:layout_width="155dp"
         android:layout_height="38dp"
+        android:backgroundTint="@color/black"
         android:ems="10"
         android:inputType="textPersonName"
         android:text=""
@@ -192,6 +200,7 @@
         android:layout_height="38dp"
         android:ems="10"
         android:inputType="textPersonName"
+        android:backgroundTint="@color/black"
         android:text=""
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -216,6 +225,8 @@
 
     <EditText
         android:id="@+id/editTextTextPersonName26"
+        android:backgroundTint="@color/black"
+
         android:layout_width="155dp"
         android:layout_height="38dp"
         android:ems="10"
@@ -231,6 +242,8 @@
 
     <EditText
         android:id="@+id/editTextTextPersonName28"
+        android:backgroundTint="@color/black"
+
         android:layout_width="155dp"
         android:layout_height="38dp"
         android:ems="10"
@@ -248,6 +261,8 @@
         android:id="@+id/editTextTextPersonName27"
         android:layout_width="155dp"
         android:layout_height="38dp"
+        android:backgroundTint="@color/black"
+
         android:ems="10"
         android:inputType="textPersonName"
         android:text=""
@@ -289,12 +304,14 @@
         android:id="@+id/editTextTextPersonName18"
         android:layout_width="197dp"
         android:layout_height="86dp"
+        android:backgroundTint="@color/black"
         android:ems="10"
         android:inputType="textPersonName"
         android:text=""
         android:textColor="@color/black"
+
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.168"
+        app:layout_constraintHorizontal_bias="0.158"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -302,6 +319,8 @@
 
     <EditText
         android:id="@+id/editTextTextPersonName22"
+        android:backgroundTint="@color/black"
+
         android:layout_width="155dp"
         android:layout_height="38dp"
         android:ems="10"
@@ -343,6 +362,8 @@
 
     <EditText
         android:id="@+id/editTextTextPersonName23"
+        android:backgroundTint="@color/black"
+
         android:layout_width="155dp"
         android:layout_height="38dp"
         android:ems="10"
@@ -358,6 +379,8 @@
 
     <EditText
         android:id="@+id/editTextTextPersonName24"
+        android:backgroundTint="@color/black"
+
         android:layout_width="155dp"
         android:layout_height="38dp"
         android:ems="10"
@@ -396,7 +419,8 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.759"/>
+        app:layout_constraintVertical_bias="0.759"
+        android:textColor="@color/black"/>
 
     <Switch
         android:id="@+id/switch3"
@@ -410,7 +434,8 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.83"/>
+        app:layout_constraintVertical_bias="0.83"
+        android:textColor="@color/black"/>
 
     <Switch
         android:id="@+id/switch4"
@@ -422,7 +447,8 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.772" />
+        app:layout_constraintVertical_bias="0.772"
+        android:textColor="@color/black"/>
 
     <Switch
         android:id="@+id/switch2"
@@ -434,6 +460,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.83" />
+        app:layout_constraintVertical_bias="0.83"
+        android:textColor="@color/black"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
