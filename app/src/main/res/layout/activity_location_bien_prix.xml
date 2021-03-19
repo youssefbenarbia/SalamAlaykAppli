@@ -141,6 +141,7 @@
         app:layout_constraintHorizontal_bias="0.853"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
+        style="@android:style/Widget.Holo.Light.Spinner"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.295" />
 
@@ -167,6 +168,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        style="@android:style/Widget.Holo.Light.Spinner"
         app:layout_constraintVertical_bias="0.435" />
 
     <CheckBox
@@ -375,11 +377,11 @@
         android:text="Payez par le nombre d'invités"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.083"
+        app:layout_constraintHorizontal_bias="0.079"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.982" />
 
     <Button
         android:id="@+id/secondContinueButton"

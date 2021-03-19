@@ -9,18 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MySalamAlaykApp">
-        <activity android:name=".AjoutBienCalendrier"></activity>
-        <activity android:name=".AjoutBienEmplacement" />
-        <activity android:name=".AjoutBienEquipements" />
-        <activity android:name=".AjoutBienDetails" />
-        <activity android:name=".LocationDeBienImages" />
-        <activity android:name=".LocationBienPrix" />
-        <activity android:name=".ModifierBien" />
-        <activity android:name=".AjouterUnBien" />
-        <activity android:name=".LocationDeBien" />
-        <activity android:name=".RegistrationActivity" />
-        <activity android:name=".MenuActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".AjoutBienCalendrier" android:screenOrientation="portrait"></activity>
+        <activity android:name=".AjoutBienEmplacement" android:screenOrientation="portrait" />
+        <activity android:name=".AjoutBienEquipements" android:screenOrientation="portrait"  />
+        <activity android:name=".AjoutBienDetails" android:screenOrientation="portrait" />
+        <activity android:name=".LocationDeBienImages" android:screenOrientation="portrait" />
+        <activity android:name=".LocationBienPrix" android:screenOrientation="portrait" />
+        <activity android:name=".ModifierBien" android:screenOrientation="portrait" />
+        <activity android:name=".AjouterUnBien" android:screenOrientation="portrait" />
+        <activity android:name=".LocationDeBien" android:screenOrientation="portrait" />
+        <activity android:name=".RegistrationActivity" android:screenOrientation="portrait" />
+        <activity android:name=".MenuActivity" android:screenOrientation="portrait" />
+        <activity android:name=".MainActivity" android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
