@@ -26,39 +26,42 @@
         android:layout_width="71dp"
         android:layout_height="42dp"
         android:text="WIFI"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.461"        android:textColor="@color/black"
+        app:layout_constraintHorizontal_bias="0.476"
 
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.557" />
+        app:layout_constraintVertical_bias="0.558" />
 
     <CheckBox
         android:id="@+id/checkBox18"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Internet"        android:textColor="@color/black"
+        android:text="Internet"
+        android:textColor="@color/black"
 
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.471"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.938" />
+        app:layout_constraintVertical_bias="0.934" />
 
     <CheckBox
         android:id="@+id/checkBox21"
         android:layout_width="77dp"
         android:layout_height="47dp"
         android:text="FAX"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.467"
-        app:layout_constraintLeft_toLeftOf="parent"        android:textColor="@color/black"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintLeft_toLeftOf="parent"
 
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.625" />
+        app:layout_constraintVertical_bias="0.624" />
 
     <CheckBox
         android:id="@+id/checkBox22"
@@ -172,9 +175,9 @@
         android:id="@+id/checkBox39"
         android:layout_width="116dp"
         android:layout_height="48dp"
-        android:text="Garden or blackryard"
-        app:layout_constraintBottom_toBottomOf="parent"        android:textColor="@color/black"
-
+        android:text="Gardien"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:textColor="@color/black"
         app:layout_constraintHorizontal_bias="0.989"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -185,40 +188,43 @@
         android:id="@+id/checkBox27"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Séchoir"        android:textColor="@color/black"
+        android:text="Séchoir"
+        android:textColor="@color/black"
 
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.463"
+        app:layout_constraintHorizontal_bias="0.487"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.868" />
+        app:layout_constraintVertical_bias="0.863" />
 
     <CheckBox
         android:id="@+id/checkBox28"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"        android:textColor="@color/black"
-
+        android:layout_height="wrap_content"
         android:text="Restaurant"
+
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.52"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.797" />
+        app:layout_constraintVertical_bias="0.793" />
 
     <CheckBox
         android:id="@+id/checkBox30"
         android:layout_width="90dp"
         android:layout_height="38dp"
         android:text="Piscine"
-        app:layout_constraintBottom_toBottomOf="parent"        android:textColor="@color/black"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
 
-        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.685" />
+        app:layout_constraintVertical_bias="0.683" />
 
     <CheckBox
         android:id="@+id/checkBox31"
@@ -263,14 +269,15 @@
         android:id="@+id/checkBox36"
         android:layout_width="113dp"
         android:layout_height="31dp"
-        android:text="Non fumeur"        android:textColor="@color/black"
+        android:text="Non fumeur"
+        android:textColor="@color/black"
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.543"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.734" />
+        app:layout_constraintVertical_bias="0.731" />
 
     <CheckBox
         android:id="@+id/checkBox38"
@@ -428,7 +435,7 @@
         android:id="@+id/checkBox9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Washer"
+        android:text="machine à laver"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.487"
@@ -454,7 +461,7 @@
         android:id="@+id/checkBox6"
         android:layout_width="115dp"
         android:layout_height="52dp"
-        android:text="Wireless Internet"
+        android:text="wifi"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -465,17 +472,17 @@
 
     <CheckBox
         android:id="@+id/checkBox24"
-        android:layout_width="96dp"
-        android:layout_height="46dp"
-        android:textColor="@color/black"
+        android:layout_width="113dp"
+        android:layout_height="45dp"
+        android:text="Scanner / Imprimante"
 
-        android:text="Scanner / Printer"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.113" />
+        app:layout_constraintVertical_bias="0.116" />
 
     <CheckBox
         android:id="@+id/checkBox5"
@@ -485,7 +492,7 @@
         android:textColor="@color/black"
 
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.548"
+        app:layout_constraintHorizontal_bias="0.461"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"

@@ -11,16 +11,28 @@
         android:id="@+id/imageView"
         android:layout_width="151dp"
         android:layout_height="100dp"
-        app:srcCompat="@drawable/logo"
-        tools:layout_editor_absoluteX="130dp"
-        tools:layout_editor_absoluteY="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.434"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
 
-        app:layout_constraintVertical_bias="0.0"/>
+        app:layout_constraintVertical_bias="0.083"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="32dp"
+        android:layout_height="74dp"
+        android:src="@drawable/capturelogocalendrier"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.039"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.418" />
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -28,15 +40,14 @@
         android:text="@string/MenuText"
         android:textColor="@color/white"
         android:textSize="30sp"
-        tools:layout_editor_absoluteX="26dp"
-        tools:layout_editor_absoluteY="137dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.64"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
 
-        app:layout_constraintVertical_bias="0.2"/>
+        app:layout_constraintVertical_bias="0.257" />
 
     <DatePicker
         android:id="@+id/datePicker1"
@@ -46,39 +57,39 @@
         android:calendarViewShown="false"
         android:datePickerMode="spinner"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.719"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
 
-        app:layout_constraintVertical_bias="0.521" />
+        app:layout_constraintVertical_bias="0.989" />
 
     <DatePicker
         android:id="@+id/datePicker2"
         android:layout_width="253dp"
         android:layout_height="96dp"
+        android:layout_marginBottom="4dp"
         android:background="@color/white"
         android:calendarViewShown="false"
         android:datePickerMode="spinner"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.711"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
 
-        app:layout_constraintVertical_bias="0.681" />
+        app:layout_constraintRight_toRightOf="parent" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:backgroundTint="@color/teal_200"
+        android:text="Retour"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-
-        app:layout_constraintVertical_bias="0.358" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/mise_en_location"
@@ -87,9 +98,27 @@
         android:backgroundTint="@color/teal_200"
         android:text="@string/button_miseEnLocation"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.875" />
+        app:layout_constraintVertical_bias="0.008" />
+
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="125dp"
+        android:layout_height="33dp"
+        android:background="@color/white"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:inputType="date"
+        android:text="Arrivée"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.164"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.422" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
