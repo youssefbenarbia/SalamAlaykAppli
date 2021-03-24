@@ -35,6 +35,13 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
     implementation 'com.google.android.gms:play-services-maps:17.0.0'
     implementation 'com.squareup:android-times-square:1.6.5@aar'
+
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.android.support:appcompat-v7:23.1.1'
+    implementation 'com.android.support:design:23.1.1'
+    implementation 'com.mcxiaoke.volley:library-aar:1.0.0'
+
+
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
