@@ -9,24 +9,37 @@
     android:background="#FFFFFF"
     >
 
-    <ImageView
-        android:layout_width="143dp"
-        android:layout_height="107dp"
-        android:src="@drawable/logo"
-        tools:layout_editor_absoluteX="134dp"
-        tools:layout_editor_absoluteY="44dp"
+    <EditText
+        android:id="@+id/txtUser_NiceName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="votre prénom"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
-
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
 
-        app:layout_constraintVertical_bias="0.2"
-        />
+        app:layout_constraintVertical_bias="0.288" />
+
+    <ImageView
+        android:layout_width="143dp"
+        android:layout_height="107dp"
+        android:src="@drawable/logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintVertical_bias="0.025" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName4"
+        android:id="@+id/txtUser_Login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/black"
@@ -44,7 +57,7 @@
 
         app:layout_constraintVertical_bias="0.4"/>
     <EditText
-        android:id="@+id/editTextTextPersonName5"
+        android:id="@+id/txtUser_Email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -61,7 +74,7 @@
         app:layout_constraintVertical_bias="0.5" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName6"
+        android:id="@+id/txtUser_Pass"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -96,7 +109,7 @@
         app:layout_constraintVertical_bias="0.7" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnCreerCompte"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/register"
