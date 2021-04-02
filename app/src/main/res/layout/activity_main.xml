@@ -41,7 +41,7 @@
 
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/userLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -61,7 +61,7 @@
 
     <EditText
         android:textColor="@color/black"
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/userPassConnexion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"

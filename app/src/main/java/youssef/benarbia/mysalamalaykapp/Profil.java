@@ -10,16 +10,16 @@ import java.util.List;
 public class Profil implements Serializable {
 
     //propriétés
-    private Integer user_login;
-    private Integer user_pass;
-    private Integer user_niceName;
-    private Integer user_email;
+    private String user_login;
+    private String user_pass;
+    private String user_niceName;
+    private String user_email;
     private Date user_registered;
     private int user_status;
-    private Integer display_name;
-    private Integer message;
+    private String display_name;
+    private String message;
 
-    public Profil(Date user_registered, Integer user_login, Integer user_pass, Integer user_niceName, Integer user_email) {
+    public Profil(Date user_registered, String user_login, String user_niceName, String user_email, String user_pass) {
         this.user_registered = user_registered;
         this.user_login = user_login;
         this.user_pass = user_pass;
@@ -27,19 +27,19 @@ public class Profil implements Serializable {
         this.user_email = user_email;
     }
 
-    public Integer getUser_login() {
+    public String getUser_login() {
         return user_login;
     }
 
-    public Integer getUser_pass() {
+    public String getUser_pass() {
         return user_pass;
     }
 
-    public Integer getUser_niceName() {
+    public String getUser_niceName() {
         return user_niceName;
     }
 
-    public Integer getUser_email() {
+    public String getUser_email() {
         return user_email;
     }
 
@@ -51,7 +51,7 @@ public class Profil implements Serializable {
         return user_status;
     }
 
-    public Integer getUser_displayName() {
+    public String getUser_displayName() {
         return display_name;
     }
 
@@ -61,16 +61,19 @@ public class Profil implements Serializable {
 
 
     /**
+     *
      * Conversion du profil au format JSONArray
      * @return
+     *
      */
     public JSONArray convertToJSONArray() {
         List laListe = new ArrayList();
+
+        laListe.add(user_registered);
         laListe.add(user_login);
-        laListe.add(user_pass);
         laListe.add(user_niceName);
         laListe.add(user_email);
-        laListe.add(user_registered);
+        laListe.add(user_pass);
 
         return new JSONArray(laListe);
     }
